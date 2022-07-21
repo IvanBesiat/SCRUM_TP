@@ -8,6 +8,15 @@ namespace Scrum_TP
 {
     internal class Boisson
     {
+        public Boisson(string nom, double puAchat, double puVente, int tVA, int quantiteStock)
+        {
+            Nom = nom;
+            PuAchat = puAchat;
+            PuVente = puVente;
+            TVA = tVA;
+            QuantiteStock = quantiteStock;
+        }
+
         public string Nom { get; set; }
         public double PuAchat { get; set; }
         public double PuVente { get; set; }
