@@ -9,7 +9,6 @@ namespace Scrum_TP
     public class Vente_Manager 
     {
         private double caisse = 100;
-        private int quantite = 0;
         public double Caisse { get => caisse; set => caisse = value; }
 
         public double CreationVente(Dictionary<Boisson, int> boissons,int quantite)

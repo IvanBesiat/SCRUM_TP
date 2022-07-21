@@ -86,7 +86,6 @@ namespace Test_Scrum_TP
         public void TestAjouterQuantite()
         {
             Vente_Manager vente_Manager = new Vente_Manager();
-            double caisse = 100;
             Boisson alcoolTest = new Boisson("Bière 33cl", 1.5, 4.5, 20, 2);
             Dictionary<Boisson, int> boissonList = new Dictionary<Boisson, int>();
             boissonList.Add(alcoolTest, 1);
