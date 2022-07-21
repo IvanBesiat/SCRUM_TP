@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Install dependencies
-      run: dotnet restore 
+      run: dotnet restore Scrum_TP
     - name: Build
       run: dotnet build Scrum_TP --no-restore
     - name: Test
