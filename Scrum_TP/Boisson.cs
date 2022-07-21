@@ -8,7 +8,7 @@ namespace Scrum_TP
 {
     public class Boisson
     {
-        public Boisson(string nom, double puAchat, double puVente, int tva, int quantiteStock)
+        public Boisson(string nom, double puAchat, double puVente, double tva, int quantiteStock)
         {
             Nom = nom;
             PuAchat = puAchat;
@@ -20,7 +20,7 @@ namespace Scrum_TP
         public string Nom { get; set; }
         public double PuAchat { get; set; }
         public double PuVente { get; set; }
-        public int TVA { get; set; }
+        public double TVA { get; set; }
         public int QuantiteStock { get; set; }
     }
 }
