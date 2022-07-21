@@ -55,7 +55,7 @@ namespace Test_Scrum_TP
             Achat_Manager createAchat = new Achat_Manager(boissonList);
 
             string resultValue = createAchat.AuguementerStockBoisson();
-            string resultAttendu = string.Format("Le nouveau stock de {0} est de {1} unité(s).Le nouveau stock de {2} est de {3} unité(s).","Bière 33cl", 1, "Coca 33cl", 2);
+            string resultAttendu = string.Format("Le nouveau stock de {0} est de {1} unité(s).Le nouveau stock de {2} est de {3} unit(s).","Bière 33cl", 1, "Coca 33cl", 2);
 
             Assert.AreEqual(resultAttendu, resultValue);
         }
