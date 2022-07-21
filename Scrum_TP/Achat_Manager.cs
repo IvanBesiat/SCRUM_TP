@@ -31,7 +31,7 @@ namespace Scrum_TP
             foreach (KeyValuePair<Boisson, int> entry in boissonDict)
             {
                 entry.Key.QuantiteStock += entry.Value;
-                result += string.Format("Le nouveau stock de {0} est de {1} unité(s).", entry.Key.Nom, entry.Key.QuantiteStock);
+                result += string.Format("Le nouveau stock de {0} est de {1} unite(s).", entry.Key.Nom, entry.Key.QuantiteStock);
             }
             Console.WriteLine(result);
             return result;
