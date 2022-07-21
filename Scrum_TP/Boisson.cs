@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Scrum_TP
 {
-    internal class Boisson
+    public class Boisson
     {
         public Boisson(string nom, double puAchat, double puVente, int tva, int quantiteStock)
         {
