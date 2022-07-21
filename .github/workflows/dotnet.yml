@@ -17,7 +17,9 @@ jobs:
       uses: actions/setup-dotnet@v2
       with:
         dotnet-version: 6.0.x
+    - name: Install dependencies
+      run: dotnet restore Scrum_TP
     - name: Build
-      run: dotnet build --no-restore
+      run: dotnet build Scrum_TP --no-restore
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet test Scrum_TP --no-build --verbosity normal
