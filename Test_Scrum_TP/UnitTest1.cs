@@ -43,5 +43,59 @@ namespace Test_Scrum_TP
 
             Assert.AreEqual(montantCMD, 2.7);
         }
+
+        [TestMethod]
+        public void TestVenteCreation()
+        {
+            Vente_Manager vente_Manager = new Vente_Manager();
+            double caisse = 100 ;
+            Boisson alcoolTest = new Boisson("Bière 33cl", 1.5, 4.5, 20, 2);
+            Dictionary<Boisson, int> boissonList = new Dictionary<Boisson, int>();
+            boissonList.Add(alcoolTest, 1);
+            int quantite = 1;
+            caisse = vente_Manager.CreationVente(boissonList, quantite);
+            Assert.AreEqual(caisse, 104,5);  
+        }
+
+        [TestMethod]
+        public void TestVenteRetirer()
+        {
+            Vente_Manager vente_Manager = new Vente_Manager();
+            double caisse = 100;
+            Boisson alcoolTest = new Boisson("Bière 33cl", 1.5, 4.5, 20, 2);
+            Dictionary<Boisson, int> boissonList = new Dictionary<Boisson, int>();
+            boissonList.Add(alcoolTest, 1);
+            int quantite = 1;
+            caisse = vente_Manager.RetirerVente(boissonList, quantite);
+            Assert.AreEqual(caisse,95,5);
+        }
+
+        [TestMethod]
+        public void TestRetirerQuantite()
+        {
+            Vente_Manager vente_Manager = new Vente_Manager();
+            Boisson alcoolTest = new Boisson("Bière 33cl", 1.5, 4.5, 20, 2);
+            Dictionary<Boisson, int> boissonList = new Dictionary<Boisson, int>();
+            boissonList.Add(alcoolTest, 1);
+            int quantite = 1;
+            quantite = vente_Manager.RetirerQuantite(boissonList, quantite);
+            Assert.AreEqual(quantite,1);
+        }
+
+        [TestMethod]
+        public void TestAjouterQuantite()
+        {
+            Vente_Manager vente_Manager = new Vente_Manager();
+            double caisse = 100;
+            Boisson alcoolTest = new Boisson("Bière 33cl", 1.5, 4.5, 20, 2);
+            Dictionary<Boisson, int> boissonList = new Dictionary<Boisson, int>();
+            boissonList.Add(alcoolTest, 1);
+            int quantite = 1;
+            quantite = vente_Manager.AjouterQuantite(boissonList, quantite);
+            Assert.AreEqual(quantite, 3);
+        }
+
+
+
     }
 }
