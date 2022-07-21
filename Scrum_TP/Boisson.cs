@@ -8,12 +8,12 @@ namespace Scrum_TP
 {
     public class Boisson
     {
-        public Boisson(string nom, double puAchat, double puVente, int tVA, int quantiteStock)
+        public Boisson(string nom, double puAchat, double puVente, int tva, int quantiteStock)
         {
             Nom = nom;
             PuAchat = puAchat;
             PuVente = puVente;
-            TVA = tVA;
+            TVA = tva;
             QuantiteStock = quantiteStock;
         }
 
