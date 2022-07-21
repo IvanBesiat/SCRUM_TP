@@ -9,6 +9,7 @@ namespace Test_Scrum_TP
         public void TestAchatCreation_CalculMontantCMD_Alcool()
         {
             Boisson boissonTest = new Boisson("Bière 33cl", 1.5,4.5,20,0);
+            
             Dictionary<Boisson, int> boissonList = new Dictionary<Boisson, int>();
             boissonList.Add(boissonTest,1);
             Achat_Manager createAchat = new Achat_Manager(boissonList);
