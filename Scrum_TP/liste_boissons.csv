@@ -1,16 +1,16 @@
-"biere blanche 33cl",1.0,3.5,20,10
-"biere blonde 33cl",1.5,4.0,20,15
-"biere ambrée 33cl",1.7,4.5,20,20
-"biere brune 33cl",2.0,5.0,20,24
-"fut biere blanche 30l",75.0,300,10
-"fut biere blonde 30l",80.0,330,12
-"fut biere ambrée 30l",75.0,330,8
-"fut biere brune 30l",75.0,360,4
-"bouteille vodka", 15,180,20,2
-"bouteille whisky",30,240,20,1
-"bouteille gin",10,180,20,4
-"bouteille bailey",12,220,20,1
-"bouteille coca 33cl",0.6,3,5.5,53
-"bouteille orangina 33cl",0.7,3,5.5,26
-"bouteille perrier 33cl",1.0,3,5.5,42
-"bouteille jus de fruit 25cl",1.5,3.5,5.5,180
+biere blanche 33cl;1,0;3,5;20;10
+biere blonde 33cl;1,5;4,0;20;15
+biere ambrée 33cl;1,7;4,5;20;20
+biere brune 33cl;2,0;5,0;20;24
+fut biere blanche 30l;75,0;300;10
+fut biere blonde 30l;80,0;330;12
+fut biere ambrée 30l;75,0;330;8
+fut biere brune 30l;75,0;360;4
+bouteille vodka; 15;180;20;2
+bouteille whisky;30;240;20;1
+bouteille gin;10;180;20;4
+bouteille bailey;12;220;20;1
+bouteille coca 33cl;0,6;3;5,5;53
+bouteille orangina 33cl;0,7;3;5,5;26
+bouteille perrier 33cl;1,0;3;5,5;42
+bouteille jus de fruit 25cl;1,5;3,5;5,5;180
